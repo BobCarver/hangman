@@ -1,0 +1,28 @@
+.game {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    background: #CCC1B4;
+    place-items: stretch;
+    text-align: center;
+}
+
+.tile{
+    position: fixed;
+ /*   width: 80%; //TODO*/
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.t0   { background: #CCC1B4; color: #CCC1B4 }
+.t2   { background: #EEE4DA}
+.t4   { background: #EDE0C8}
+.t8   { background: #F2B179}
+.t16  { background: #F59563}
+.t32  { background: #E07157}
+.t64  { background: #F5613C}
+.t128 { background: #D5BA66}
+.t256 { background: #EDCC62}

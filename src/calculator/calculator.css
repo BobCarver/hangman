@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+  }
+  .key0 {
+    grid-column: 1/3;
+  }
+  #display {
+      background: black;
+      color: white
+  }
+  .function {
+    background: grey
+  }
+  .number {
+      background: white
+  }
+  .operator {
+      grid-column: 4;
+      background: orange
+  }
