@@ -1,0 +1,35 @@
+.Hangman button {
+    box-sizing: border-box;
+    background-color: gold;
+    font-size: 2.5vmin;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10%;
+    text-align: center;
+    border-color: white;
+    border-width: 5px;
+    padding: 1%;
+ }
+.Hangman svg {
+    width: 25%;
+    height: 25%;
+}
+.partial {
+    letter-spacing: 0.625em;
+    text-transform: uppercase;
+    padding: 2em;
+}
+ .wrap    {
+     display: flex;
+     justify-content: center;
+     margin: 0;
+     flex-wrap: wrap;
+  }
+
+.Hangman    {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+ }

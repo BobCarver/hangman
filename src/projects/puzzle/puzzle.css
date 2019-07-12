@@ -1,0 +1,36 @@
+
+
+.t0{    clip-path: polygon( 0 0, 25% 0, 25% 25%,0 25%);};
+.t1{    clip-path: polygon( 0 25%, 25% 25%, 25% 50%,0 50%);};
+.t2{    clip-path: polygon( 0 50%, 25% 50%, 25% 75%,0 75%);};
+.t3{    clip-path: polygon( 0 75%, 75% 0, 25% 100%,0 100%);};
+
+.t4{    clip-path: polygon( 25% 0, 50% 0, 50% 25%,25% 25%);};
+.t5{    clip-path: polygon( 25% 25%, 25% 50%, 50% 50%, 25% 50%);};
+.t6{    clip-path: polygon( 25% 50%, 25% 75%, 50% 75%, 25% 75%);};
+.t7{    clip-path: polygon( 25% 75%, 75% 0, 25% 100%, 25% 100%);};
+
+.t0{    clip-path: polygon( 0 0, 25% 0, 25% 25%,0 25%);};
+.t1{    clip-path: polygon( 0 25%, 25% 25%, 25% 50%,0 50%);};
+.t2{    clip-path: polygon( 0 50%, 25% 50%, 25% 75%,0 75%);};
+.t3{    clip-path: polygon( 0 75%, 75% 0, 25% 100%,0 100%);};
+
+.t0{    clip-path: polygon( 0 0, 25% 0, 25% 25%,0 25%);};
+.t1{    clip-path: polygon( 0 25%, 25% 25%, 25% 50%,0 50%);};
+.t2{    clip-path: polygon( 0 50%, 25% 50%, 25% 75%,0 75%);};
+.t3{    clip-path: polygon( 0 75%, 75% 0, 25% 100%,0 100%);};
+
+.tile {
+    transition: top .5s, left .5s;
+    position: absolute;
+    height: 25%;
+    width: 25%;
+};
+
+.game {
+    box-sizing:border-box;
+    padding-bottom: 100%;
+    background: #CCC1B4;
+    position: relative;
+};
+

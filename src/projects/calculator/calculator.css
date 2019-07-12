@@ -1,0 +1,43 @@
+.calculator {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  margin-top: 3em;
+  font: 100 14px 'Roboto';
+  box-shadow: 0px 0px 20px 0px #aaa;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 2em;
+  }
+  .display {
+      background: black;
+      text-align: right;
+      color: white;
+      padding: .25em;
+      font-size: 4em;
+  }
+
+  .key {
+    border: 1px solid black;
+    padding: .3em;
+    background: rgb(236, 232, 232);
+    text-align: center;
+  }
+  .key:hover {
+    filter: brightness(85%);
+  }
+  /* https://css-tricks.com/useful-nth-child-recipies/ */
+  .key:nth-child(-n+3){ /* first three */
+    background: rgb(168, 168, 168)
+  }
+  .key:nth-child(4n+4), .key:last-child { /* operators */
+    background: rgb(248, 185, 66);
+    color: white;
+  }
+  .key:nth-last-child(1){ /* zero */
+    grid-column: 3 / 5;
+    font-size: 1em;
+    background: rgb(27, 194, 69);
+  }

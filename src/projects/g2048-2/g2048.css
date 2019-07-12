@@ -1,0 +1,70 @@
+.game {
+    box-sizing:border-box;
+    width: 75%;
+    padding-bottom: 100%; /* set 1:1 asspect ration for board */
+    border: 2px solid #CCC1B4;
+    border-radius: 6px;
+    background: #CCC1B4;
+    position: relative;
+}
+.tile {
+    border-radius: 3px;
+    transition: top .5s, left .5s;
+    position: absolute;
+    display: flex;
+    box-sizing:border-box;
+    border: 2px solid #CCC1B4;
+    height: 25%;
+    width: 25%;
+}
+.tileContents {
+    font-size: 12vw;
+    color: white;
+    margin: auto; /* center text in flex */
+}
+
+@keyframes pop {
+    0%   {transform: scale(0); }
+    50%  {transform: scale(1.2); }
+    100% {transform: scale(1); } }
+
+.scores-container {
+    float: right;
+}
+
+.score-container, .best-container {
+    position: relative;
+    display: inline-block;
+    background: #bbada0;
+    padding: 15px 25px;
+    font-size: 25px;
+    height: 25px;
+    line-height: 47px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
+#score-container:after, #best-container:after {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #eee4da;
+}
+#score #hi-score {
+    position: absolute;
+    right: 30px;
+    color: red;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    color: rgba(119, 110, 101, 0.9);
+    z-index: 100;
+    animation: move-up 600ms ease-in;
+    animation-fill-mode: both; }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+style="fill-rule:evenodd;clip-rule:evenodd;fill:none; stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+<path d="M80,560l280,0M160,560l0,-480l180,0l0,60" />
+<!-- head -->
+<circle cx="340" cy="180" r="40" />
+<!-- eyes -->
+<circle cx="325" cy="165" r="5" />
+<circle cx="355" cy="165" r="5" />
+<!-- smile -->
+<path d="M325,200c15.291,12.15 22.133,4.898 30,0" />
+<!-- body -->
+<path d="M340,220l0,140"/>
+<!-- arm -->
+<path d="M340,260l100,-40" />
+<!-- arm -->
+<path d="M340,260l-100,-40" />
+<!-- leg -->
+<path d="M340,360l100,120" />
+<!-- leg -->
+<path d="M340,360l-100,120" />
+<!-- dead -->
+<path d="M320,160l10,10M330,160l-10,10M360,160l-10,10M350,160l10,10M325,200l30,0" />
+
+</svg>

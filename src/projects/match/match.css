@@ -1,0 +1,16 @@
+.flipper {
+  position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+/* front pane, placed above back */
+.flipper >:nth-child(1) {
+  position: absolute;
+  backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+/* back pane */
+.flipper >:nth-child(2) {
+  backface-visibility: hidden;
+	transform: rotateY(0deg);
+}
